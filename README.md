@@ -2,10 +2,16 @@
 
 Centralized repository for serving house ads and cross-promotions across all Factictionary Android apps when third-party ad networks (Google AdMob / AppLovin) return sub-100% fill rates.
 
-## CDN URL Format
-Files are served globally via jsDelivr CDN without hitting GitHub rate limits:
+## Git Repository
+```bash
+git remote add origin https://github.com/factictionary/cross_promo_network.git
+git push -u origin main
 ```
-https://cdn.jsdelivr.net/gh/<YOUR_GITHUB_USERNAME>/<REPO_NAME>@main/campaigns.json
+
+## CDN URL
+All assets and the manifest are served globally via jsDelivr CDN:
+```text
+https://cdn.jsdelivr.net/gh/factictionary/cross_promo_network@main/campaigns.json
 ```
 
 ## Structure
